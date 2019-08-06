@@ -1,0 +1,65 @@
+.mode {
+	-fx-background-color:#F0DF91;
+	-fx-pref-height: 50px;
+	-fx-pref-width: 120px;
+	-fx-border-radius: 10px 10px 10px 10px;
+}
+
+.padding {
+	-fx-pref-width: 100px;
+}
+
+.title {
+	-fx-font-size: 25px;
+	-fx-text-fill: #F0DF91;
+	-fx-text-alignment: center;
+	-fx-pref-height: 50px;
+}
+
+.background {
+	-fx-background-color: #91A2F0;
+	-fx-padding: 15px 15px 15px 15px;
+}
+
+.generate {
+	-fx-background-color:#F0DF91;
+	-fx-pref-height: 50px;
+	-fx-effect: dropshadow(three-pass-box, grey, 4, 0, 0, 0.1);
+	-fx-pref-width: 80px;
+	-fx-border-radius: 10px 10px 10px 10px;	
+}
+
+.score {
+	-fx-background-color:#F0DF91;
+	-fx-alignment:center;
+	-fx-font-size: 25px;
+	-fx-pref-height: 80px;
+	-fx-pref-width: 120px;
+	-fx-font-weight: bold;
+}
+
+.question {
+	-fx-background-color:#F0DF91;
+	-fx-effect: dropshadow(three-pass-box, grey, 3, 0, 0, 0.1);
+	-fx-pref-width: 400px;
+	-fx-pref-height: 200px;
+	-fx-alignment: center;
+	-fx-font-size: 30px;
+	-fx-font-weight: bold;
+}
+
+.choice {
+	-fx-pref-width: 200px;
+	-fx-border-radius: 10 10 0 0;
+	-fx-effect: dropshadow(three-pass-box, grey, 3, 0, 0, 0.1);
+	-fx-background-color: #F0DF91;
+}
+
+.choice:hover, .generate:hover {
+	-fx-effect: dropshadow(three-pass-box, grey, 0, 0, 0, 0);
+}
+
+.display {
+	-fx-hgap: 10px;
+	-fx-vgap: 10px
+}
